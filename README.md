@@ -32,7 +32,7 @@ cd $HOME/kujira-core
 make install
 sleep 1
 ln -s $HOME/go/bin/kujirad /usr/local/bin/kujirad
-kujirad init "<moniker-ismi>" --chain-id=harpoon-4
+kujirad init irlanda --chain-id=harpoon-4
 kujirad version
 ```
 Version 0.4.0 olması lazım
